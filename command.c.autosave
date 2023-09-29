@@ -1,0 +1,8 @@
+#include <command.h>
+#include <QDebug>
+
+addCommand::addCommand(int *value, QUndoCommand *parent)
+{
+    Q_UNUSED(parent);
+    setText("");
+}
